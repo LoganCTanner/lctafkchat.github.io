@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "neueHaas";
+    src: url("NHaasGroteskTXPro-75Bd.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "comicSans";
+    src: url("C:/Windows/Fonts/comic.ttf");
+}
+
+html,body {
+    margin: 0;
+ }
+
+#chat{
+    width: 400px;
+    height: 650px;
+    background-color: black;
+    color: white;
+    font-family: "neueHaas";
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#chat::-webkit-scrollbar {
+    display: none;
+}
+
+
+#chat ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
